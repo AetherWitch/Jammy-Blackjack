@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Jammy Blackjack</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<div class = "logo"><img src = "img/Jammy_Blackjack.png"></div>
+<body>
+  <div class = "gameCon">
+    <br>
+	<h1>Jammy Blackjack</h1>
+	<div class="table">
+		<div class="dealer">
+			<h2>Dealer</h2>
+			<div class="card-container" id="dealer-cards"></div>
+			<p id="dealer-score"></p>
+		</div>
+		<div class="player">
+			<h2>Player</h2>
+			<div class="card-container" id="player-cards"></div>
+			<p id="player-score"></p>
+		</div>
+	</div>
+  <div class = "buttons">
+    <button id="deal-button">Deal</button>
+    <button id="hit-button">Hit</button>
+    <button id="stand-button">Stand</button>
+    <script src="js/script.js"></script>
+  </div>
+  <br>
+  <br>
+  <h2 id = "out"></h2>
+  <h3 id = "countP">Player Wins: 0</h3>
+  <h3 id = "countD">Dealer Wins: 0</h3>
+</div>
+</body>
+</html>
